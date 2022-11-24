@@ -12,14 +12,14 @@
 
 <body>
   <div class="grid-container">
-    <header class="mobile-header">
+    <header class="mobile-header" role="banner">
       <svg id="btn-open" width="40" height="17" xmlns="http://www.w3.org/2000/svg">
         <g fill="#00001A" fill-rule="evenodd">
           <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
           <path d="M0 0h40v3H0z" />
         </g>
       </svg>
-      <menu class="mobile-menu">
+      <menu class="mobile-menu" role="navigation">
         <svg id="btn-close" width="32" height="31" xmlns="http://www.w3.org/2000/svg">
           <g fill="#00001A" fill-rule="evenodd">
             <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
@@ -48,7 +48,7 @@
       </menu>
     </header>
 
-    <article class="main-news">
+    <article class="main-news" role="main">
       <picture>
         <source media="(max-width: 799px)" srcset="assets\images\image-web-3-mobile.jpg" />
         <source media="(min-width: 800px)" srcset="assets\images\image-web-3-desktop.jpg" />
@@ -56,7 +56,7 @@
       </picture>
 
       <div class="description">
-        <h2 class="title">The Bright Future of Web 3.0?</h2>
+        <h1 class="title">The Bright Future of Web 3.0?</h1>
         <div>
           <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the
             hands
